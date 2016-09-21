@@ -44,7 +44,6 @@ hab<-read.delim('x_Example_BRUV_TM_HabitatAnnotation.txt',header=T,skip=4,string
 head(hab)
 unique(hab$fieldofview)
 names(hab)
-filter(hab,OpCode=="NCB1530")
 
 # Create %fov----
 fov<-hab%>%
